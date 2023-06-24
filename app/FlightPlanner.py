@@ -32,14 +32,14 @@ for node_id, code, latitude_deg, latitude_min, longitude_deg, longitude_min in n
     newNode = Airport(code, latitude_deg, latitude_min, longitude_deg, longitude_min)
     airportGraph.addNode(code, newNode)
 
-print(airportGraph.getNodesSize())
+# print(airportGraph.getNodesSize())
 
 for edge_id, source, target in edge_properties:
     distance = Airport.calculateDistance(airportGraph.getNodeData(source), airportGraph.getNodeData(target))
     airportGraph.addEdge(source, target, distance)
     airportGraph.addEdge(target, source, distance)
 
-print(airportGraph.getEdgesSize())
+# print(airportGraph.getEdgesSize())
 
 def displayAirports():
     print("\n\nAIRPORTS YOU CAN TRAVEL TO AND FROM:")
@@ -130,7 +130,7 @@ def processUserInput():
 
 keepGoing = True
 while (keepGoing):
-    print(tps.toString())                                                   #
+    # print(tps.toString())                                                   #
     displayAirports()
     displayCurrentTrip()
     displayMenu()
