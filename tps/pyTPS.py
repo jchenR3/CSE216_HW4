@@ -1,6 +1,6 @@
-from tsTPS_Transaction import tsTPS_Transaction
+from pyTPS_Transaction import pyTPS_Transaction
 
-class tsTPS:
+class pyTPS:
 
     def __init__(self):
         self.transactions = []

@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
 
-class tsTPS_Transaction(ABC):
+class pyTPS_Transaction(ABC):
     @abstractmethod
     def doTransaction(self):
         pass

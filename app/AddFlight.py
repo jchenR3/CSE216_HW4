@@ -2,9 +2,9 @@ import sys
 
 sys.path.append('d:\\VSC Coding Folder\\CSE-216\\HW4\\tps')
 
-from tsTPS_Transaction import tsTPS_Transaction
+from pyTPS_Transaction import pyTPS_Transaction
 
-class AddFlight(tsTPS_Transaction):
+class AddFlight(pyTPS_Transaction):
     
     def __init__(self, initAirport, initStops):
         self.airport = initAirport

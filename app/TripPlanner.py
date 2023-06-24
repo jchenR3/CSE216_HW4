@@ -5,7 +5,7 @@ sys.path.append('d:\\VSC Coding Folder\\CSE-216\\HW4\\tps')
 
 # print(sys.path)
 
-from tsTPS import tsTPS
+from pyTPS import pyTPS
 from Airport import Airport
 from WeightedGraph import WeightedGraph
 from AddFlight import AddFlight
@@ -14,7 +14,7 @@ import json
 # Global variablees
 stops = []
 airportGraph = WeightedGraph()
-tps = tsTPS()
+tps = pyTPS()
 
 # Read the JSON file
 file_path = 'D:\VSC Coding Folder\CSE-216\HW4\graphStructure\graphStructure.json'
