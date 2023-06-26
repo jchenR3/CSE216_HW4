@@ -1,9 +1,6 @@
 import sys
 
-sys.path.append('d:\\VSC Coding Folder\\CSE-216\\HW4\\graph')
-sys.path.append('d:\\VSC Coding Folder\\CSE-216\\HW4\\tps')
-
-# print(sys.path)
+# print(sys.path)s
 
 from pyTPS import pyTPS
 from Airport import Airport
